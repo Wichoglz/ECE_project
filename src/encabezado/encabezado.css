@@ -1,0 +1,128 @@
+.containe {
+    position: relative;
+    text-align: center;
+}
+
+
+.image1{
+	top:8px;
+	width: 100%;
+	padding-top: 21px;
+	height: 17rem;
+	z-index: 0;
+}
+/*.title{
+	position: absolute;
+    top: 8px;
+    left: 16px;
+	font-family: 'Gaegu', cursive;
+
+	  <!--<h2 className="title">FIFA 2018 WORLD CUP!</h2>-->
+   
+}*/
+.menubar{
+	list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    text-decoration: none;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+}
+.menubar2{
+	display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.menubar3{
+	float: left;
+	text-decoration: none;
+}
+
+
+.menubar2:hover() {
+    background-color: #555;
+    color: white;
+    text-decoration: none;
+}
+.menubar2:hover:not(.active1) {
+    background-color: #111;
+    text-decoration: none;
+}
+
+.active1 {
+    background-color: #4CAF50;
+}
+
+
+.Notice{
+	font-family: 'Gaegu', cursive;
+	font-size: 24px;
+	font-weight: 600;
+	padding: 2px;
+	background-color: white;
+	transition-delay: .1s;
+	align-content: center;
+	color:black;
+}
+.Notice:hover{
+	background-color: 	#A9A9A9;
+}
+
+.no-gutters {
+  margin-right: 0;
+  margin-left: 0;
+
+  > .col,
+  > [class*="col-"] {
+    padding-right: 0;
+    padding-left: 0;
+  }
+}
+a:link{
+	text-decoration:none;
+	
+}
+.active{
+  color: white;
+  font-size: 30px;
+  font-family: 'Do Hyeon', sans-serif;
+  padding-left: 55px;
+}
+.carrusel{
+  font-weight: bold;
+  opacity: 0.5;
+  height: 500px;
+  width: 650px;
+}
+
+.d-block{
+	position: relative;
+    right:  25px;
+	height: 500px;
+	width: 550px;
+}
+
+.titulo2{
+	text-align: center;
+	font-family: 'Do Hyeon', sans-serif;
+}
+.carousel-caption{
+	font-family: 'Do Hyeon', sans-serif;
+}
+.img2{
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+}
+.subtitle1{
+	text-align: center;
+	font-family: 'Do Hyeon', sans-serif;
+}
